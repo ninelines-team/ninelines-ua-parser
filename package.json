@@ -1,0 +1,30 @@
+{
+	"name": "ninelines-ua-parser",
+	"version": "0.0.1",
+	"description": "UA Parser with HTML classes",
+	"keywords": [
+		"ua-parser",
+		"user-agent",
+		"parser",
+		"browser",
+		"html",
+		"class"
+	],
+	"author": "Dmitry Artemov <d.artemov@9-lines.com>",
+	"license": "ISC",
+	"homepage": "https://github.com/ninelines-team/ninelines-ua-parser#readme",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ninelines-team/ninelines-ua-parser.git"
+	},
+	"bugs": {
+		"url": "https://github.com/ninelines-team/ninelines-ua-parser/issues"
+	},
+	"main": "src/index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"dependencies": {
+		"ua-parser-js": "^0.7.17"
+	}
+}
