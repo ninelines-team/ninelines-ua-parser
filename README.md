@@ -7,7 +7,7 @@
 
 ### NPM
 
-```
+```bash
 npm install --save ninelines-ua-parser
 ```
 
@@ -18,6 +18,11 @@ npm install --save ninelines-ua-parser
 ```js
 import 'ninelines-ua-parser';
 ```
+
+> При отсутствии модульной системы библиотека (`dist/ninelines-ua-parser.js`) экспортирует `UAParser` в глобальный объект `ninelines`.
+> ```js
+> new ninelines.UAParser();
+> ```
 
 Основная информация описана в [документации ua-parser-js](https://github.com/faisalman/ua-parser-js).
 
