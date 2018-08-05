@@ -20,26 +20,26 @@ if (result.device.type) {
 }
 
 if (result.os.name) {
-	if (
-		[
-			'fedora',
-			'debian',
-			'gentoo',
-			'linpus',
-			'mageia',
-			'mandriva',
-			'meego',
-			'mint',
-			'pclinuxos',
-			'redhat',
-			'sailfish',
-			'slackware',
-			'suse',
-			'tizen',
-			'ubuntu',
-			'vectorlinux',
-		].includes(result.os.name.toLowerCase())
-	) {
+	let linuxOS = [
+		'fedora',
+		'debian',
+		'gentoo',
+		'linpus',
+		'mageia',
+		'mandriva',
+		'meego',
+		'mint',
+		'pclinuxos',
+		'redhat',
+		'sailfish',
+		'slackware',
+		'suse',
+		'tizen',
+		'ubuntu',
+		'vectorlinux',
+	];
+
+	if (linuxOS.indexOf(result.os.name.toLowerCase()) !== -1) {
 		addClass('os', 'linux');
 	}
 
